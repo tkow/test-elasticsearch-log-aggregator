@@ -1,0 +1,33 @@
+version: '3'
+
+services:
+  elasticsearch:
+    build:
+      context: ./els
+    container_name: tkow-elasticsearch
+    environment:
+      - cluster.name=docker-cluster
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - esdata:/usr/share/elasticsearch/data
+    ports:
+      - 9200:9200
+    networks:
+      - esnet
+  postgres:
+    build:
+      context: ./postgres
+    container_name: tkow-postgres
+    networks:
+      - esnet
+volumes:
+  esdata:
+    driver: local
+networks:
+  esnet:
+

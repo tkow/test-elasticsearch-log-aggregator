@@ -1,0 +1,2119 @@
+{
+  "took" : 7,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 11,
+    "successful" : 10,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 5102,
+    "max_score" : 1.0,
+    "hits" : [
+      {
+        "_index" : ".monitoring-es-6-2018.05.04",
+        "_type" : "doc",
+        "_id" : "AWMppIQJ2bIvXh0T5GOo",
+        "_score" : 1.0,
+        "_source" : {
+          "cluster_uuid" : "z9M9ylYhSYeglBHZGFv5ng",
+          "timestamp" : "2018-05-04T05:33:57.618Z",
+          "type" : "index_recovery",
+          "source_node" : {
+            "uuid" : "wfgVeT09RY2XA-WIMDGtBQ",
+            "host" : "172.20.0.2",
+            "transport_address" : "172.20.0.2:9300",
+            "ip" : "172.20.0.2",
+            "name" : "wfgVeT0",
+            "attributes" : {
+              "ml.max_open_jobs" : "10",
+              "ml.enabled" : "true"
+            }
+          },
+          "index_recovery" : {
+            "shards" : [
+              {
+                "index_name" : "postgres.public.products.idx_zdb_products",
+                "id" : 4,
+                "type" : "EMPTY_STORE",
+                "stage" : "DONE",
+                "primary" : true,
+                "start_time_in_millis" : 1525344731863,
+                "stop_time_in_millis" : 1525344731884,
+                "total_time_in_millis" : 20,
+                "source" : { },
+                "target" : {
+                  "id" : "wfgVeT09RY2XA-WIMDGtBQ",
+                  "host" : "172.20.0.2",
+                  "transport_address" : "172.20.0.2:9300",
+                  "ip" : "172.20.0.2",
+                  "name" : "wfgVeT0"
+                },
+                "index" : {
+                  "size" : {
+                    "total_in_bytes" : 0,
+                    "reused_in_bytes" : 0,
+                    "recovered_in_bytes" : 0,
+                    "percent" : "0.0%"
+                  },
+                  "files" : {
+                    "total" : 0,
+                    "reused" : 0,
+                    "recovered" : 0,
+                    "percent" : "0.0%"
+                  },
+                  "total_time_in_millis" : 0,
+                  "source_throttle_time_in_millis" : 0,
+                  "target_throttle_time_in_millis" : 0
+                },
+                "translog" : {
+                  "recovered" : 0,
+                  "total" : 0,
+                  "percent" : "100.0%",
+                  "total_on_start" : 0,
+                  "total_time_in_millis" : 15
+                },
+                "verify_index" : {
+                  "check_index_time_in_millis" : 0,
+                  "total_time_in_millis" : 0
+                }
+              },
+              {
+                "index_name" : "postgres.public.products.idx_zdb_products",
+                "id" : 2,
+                "type" : "EMPTY_STORE",
+                "stage" : "DONE",
+                "primary" : true,
+                "start_time_in_millis" : 1525344731748,
+                "stop_time_in_millis" : 1525344731858,
+                "total_time_in_millis" : 109,
+                "source" : { },
+                "target" : {
+                  "id" : "wfgVeT09RY2XA-WIMDGtBQ",
+                  "host" : "172.20.0.2",
+                  "transport_address" : "172.20.0.2:9300",
+                  "ip" : "172.20.0.2",
+                  "name" : "wfgVeT0"
+                },
+                "index" : {
+                  "size" : {
+                    "total_in_bytes" : 0,
+                    "reused_in_bytes" : 0,
+                    "recovered_in_bytes" : 0,
+                    "percent" : "0.0%"
+                  },
+                  "files" : {
+                    "total" : 0,
+                    "reused" : 0,
+                    "recovered" : 0,
+                    "percent" : "0.0%"
+                  },
+                  "total_time_in_millis" : 1,
+                  "source_throttle_time_in_millis" : 0,
+                  "target_throttle_time_in_millis" : 0
+                },
+                "translog" : {
+                  "recovered" : 0,
+                  "total" : 0,
+                  "percent" : "100.0%",
+                  "total_on_start" : 0,
+                  "total_time_in_millis" : 77
+                },
+                "verify_index" : {
+                  "check_index_time_in_millis" : 0,
+                  "total_time_in_millis" : 0
+                }
+              },
+              {
+                "index_name" : "postgres.public.products.idx_zdb_products",
+                "id" : 3,
+                "type" : "EMPTY_STORE",
+                "stage" : "DONE",
+                "primary" : true,
+                "start_time_in_millis" : 1525344731774,
+                "stop_time_in_millis" : 1525344731858,
+                "total_time_in_millis" : 83,
+                "source" : { },
+                "target" : {
+                  "id" : "wfgVeT09RY2XA-WIMDGtBQ",
+                  "host" : "172.20.0.2",
+                  "transport_address" : "172.20.0.2:9300",
+                  "ip" : "172.20.0.2",
+                  "name" : "wfgVeT0"
+                },
+                "index" : {
+                  "size" : {
+                    "total_in_bytes" : 0,
+                    "reused_in_bytes" : 0,
+                    "recovered_in_bytes" : 0,
+                    "percent" : "0.0%"
+                  },
+                  "files" : {
+                    "total" : 0,
+                    "reused" : 0,
+                    "recovered" : 0,
+                    "percent" : "0.0%"
+                  },
+                  "total_time_in_millis" : 0,
+                  "source_throttle_time_in_millis" : 0,
+                  "target_throttle_time_in_millis" : 0
+                },
+                "translog" : {
+                  "recovered" : 0,
+                  "total" : 0,
+                  "percent" : "100.0%",
+                  "total_on_start" : 0,
+                  "total_time_in_millis" : 75
+                },
+                "verify_index" : {
+                  "check_index_time_in_millis" : 0,
+                  "total_time_in_millis" : 0
+                }
+              },
+              {
+                "index_name" : "postgres.public.products.idx_zdb_products",
+                "id" : 1,
+                "type" : "EMPTY_STORE",
+                "stage" : "DONE",
+                "primary" : true,
+                "start_time_in_millis" : 1525344731781,
+                "stop_time_in_millis" : 1525344731858,
+                "total_time_in_millis" : 76,
+                "source" : { },
+                "target" : {
+                  "id" : "wfgVeT09RY2XA-WIMDGtBQ",
+                  "host" : "172.20.0.2",
+                  "transport_address" : "172.20.0.2:9300",
+                  "ip" : "172.20.0.2",
+                  "name" : "wfgVeT0"
+                },
+                "index" : {
+                  "size" : {
+                    "total_in_bytes" : 0,
+                    "reused_in_bytes" : 0,
+                    "recovered_in_bytes" : 0,
+                    "percent" : "0.0%"
+                  },
+                  "files" : {
+                    "total" : 0,
+                    "reused" : 0,
+                    "recovered" : 0,
+                    "percent" : "0.0%"
+                  },
+                  "total_time_in_millis" : 0,
+                  "source_throttle_time_in_millis" : 0,
+                  "target_throttle_time_in_millis" : 0
+                },
+                "translog" : {
+                  "recovered" : 0,
+                  "total" : 0,
+                  "percent" : "100.0%",
+                  "total_on_start" : 0,
+                  "total_time_in_millis" : 69
+                },
+                "verify_index" : {
+                  "check_index_time_in_millis" : 0,
+                  "total_time_in_millis" : 0
+                }
+              },
+              {
+                "index_name" : "postgres.public.products.idx_zdb_products",
+                "id" : 0,
+                "type" : "EMPTY_STORE",
+                "stage" : "DONE",
+                "primary" : true,
+                "start_time_in_millis" : 1525344731787,
+                "stop_time_in_millis" : 1525344731858,
+                "total_time_in_millis" : 71,
+                "source" : { },
+                "target" : {
+                  "id" : "wfgVeT09RY2XA-WIMDGtBQ",
+                  "host" : "172.20.0.2",
+                  "transport_address" : "172.20.0.2:9300",
+                  "ip" : "172.20.0.2",
+                  "name" : "wfgVeT0"
+                },
+                "index" : {
+                  "size" : {
+                    "total_in_bytes" : 0,
+                    "reused_in_bytes" : 0,
+                    "recovered_in_bytes" : 0,
+                    "percent" : "0.0%"
+                  },
+                  "files" : {
+                    "total" : 0,
+                    "reused" : 0,
+                    "recovered" : 0,
+                    "percent" : "0.0%"
+                  },
+                  "total_time_in_millis" : 0,
+                  "source_throttle_time_in_millis" : 0,
+                  "target_throttle_time_in_millis" : 0
+                },
+                "translog" : {
+                  "recovered" : 0,
+                  "total" : 0,
+                  "percent" : "100.0%",
+                  "total_on_start" : 0,
+                  "total_time_in_millis" : 60
+                },
+                "verify_index" : {
+                  "check_index_time_in_millis" : 0,
+                  "total_time_in_millis" : 0
+                }
+              },
+              {
+                "index_name" : ".monitoring-es-6-2018.05.04",
+                "id" : 4,
+                "type" : "EMPTY_STORE",
+                "stage" : "DONE",
+                "primary" : true,
+                "start_time_in_millis" : 1525410277615,
+                "stop_time_in_millis" : 1525410277635,
+                "total_time_in_millis" : 19,
+                "source" : { },
+                "target" : {
+                  "id" : "wfgVeT09RY2XA-WIMDGtBQ",
+                  "host" : "172.20.0.2",
+                  "transport_address" : "172.20.0.2:9300",
+                  "ip" : "172.20.0.2",
+                  "name" : "wfgVeT0"
+                },
+                "index" : {
+                  "size" : {
+                    "total_in_bytes" : 0,
+                    "reused_in_bytes" : 0,
+                    "recovered_in_bytes" : 0,
+                    "percent" : "0.0%"
+                  },
+                  "files" : {
+                    "total" : 0,
+                    "reused" : 0,
+                    "recovered" : 0,
+                    "percent" : "0.0%"
+                  },
+                  "total_time_in_millis" : 0,
+                  "source_throttle_time_in_millis" : 0,
+                  "target_throttle_time_in_millis" : 0
+                },
+                "translog" : {
+                  "recovered" : 0,
+                  "total" : 0,
+                  "percent" : "100.0%",
+                  "total_on_start" : 0,
+                  "total_time_in_millis" : 13
+                },
+                "verify_index" : {
+                  "check_index_time_in_millis" : 0,
+                  "total_time_in_millis" : 0
+                }
+              },
+              {
+                "index_name" : ".monitoring-es-6-2018.05.04",
+                "id" : 2,
+                "type" : "EMPTY_STORE",
+                "stage" : "DONE",
+                "primary" : true,
+                "start_time_in_millis" : 1525410277579,
+                "stop_time_in_millis" : 1525410277603,
+                "total_time_in_millis" : 23,
+                "source" : { },
+                "target" : {
+                  "id" : "wfgVeT09RY2XA-WIMDGtBQ",
+                  "host" : "172.20.0.2",
+                  "transport_address" : "172.20.0.2:9300",
+                  "ip" : "172.20.0.2",
+                  "name" : "wfgVeT0"
+                },
+                "index" : {
+                  "size" : {
+                    "total_in_bytes" : 0,
+                    "reused_in_bytes" : 0,
+                    "recovered_in_bytes" : 0,
+                    "percent" : "0.0%"
+                  },
+                  "files" : {
+                    "total" : 0,
+                    "reused" : 0,
+                    "recovered" : 0,
+                    "percent" : "0.0%"
+                  },
+                  "total_time_in_millis" : 0,
+                  "source_throttle_time_in_millis" : 0,
+                  "target_throttle_time_in_millis" : 0
+                },
+                "translog" : {
+                  "recovered" : 0,
+                  "total" : 0,
+                  "percent" : "100.0%",
+                  "total_on_start" : 0,
+                  "total_time_in_millis" : 16
+                },
+                "verify_index" : {
+                  "check_index_time_in_millis" : 0,
+                  "total_time_in_millis" : 0
+                }
+              },
+              {
+                "index_name" : ".monitoring-es-6-2018.05.04",
+                "id" : 3,
+                "type" : "EMPTY_STORE",
+                "stage" : "DONE",
+                "primary" : true,
+                "start_time_in_millis" : 1525410277586,
+                "stop_time_in_millis" : 1525410277605,
+                "total_time_in_millis" : 19,
+                "source" : { },
+                "target" : {
+                  "id" : "wfgVeT09RY2XA-WIMDGtBQ",
+                  "host" : "172.20.0.2",
+                  "transport_address" : "172.20.0.2:9300",
+                  "ip" : "172.20.0.2",
+                  "name" : "wfgVeT0"
+                },
+                "index" : {
+                  "size" : {
+                    "total_in_bytes" : 0,
+                    "reused_in_bytes" : 0,
+                    "recovered_in_bytes" : 0,
+                    "percent" : "0.0%"
+                  },
+                  "files" : {
+                    "total" : 0,
+                    "reused" : 0,
+                    "recovered" : 0,
+                    "percent" : "0.0%"
+                  },
+                  "total_time_in_millis" : 0,
+                  "source_throttle_time_in_millis" : 0,
+                  "target_throttle_time_in_millis" : 0
+                },
+                "translog" : {
+                  "recovered" : 0,
+                  "total" : 0,
+                  "percent" : "100.0%",
+                  "total_on_start" : 0,
+                  "total_time_in_millis" : 13
+                },
+                "verify_index" : {
+                  "check_index_time_in_millis" : 0,
+                  "total_time_in_millis" : 0
+                }
+              },
+              {
+                "index_name" : ".monitoring-es-6-2018.05.04",
+                "id" : 1,
+                "type" : "EMPTY_STORE",
+                "stage" : "DONE",
+                "primary" : true,
+                "start_time_in_millis" : 1525410277591,
+                "stop_time_in_millis" : 1525410277612,
+                "total_time_in_millis" : 20,
+                "source" : { },
+                "target" : {
+                  "id" : "wfgVeT09RY2XA-WIMDGtBQ",
+                  "host" : "172.20.0.2",
+                  "transport_address" : "172.20.0.2:9300",
+                  "ip" : "172.20.0.2",
+                  "name" : "wfgVeT0"
+                },
+                "index" : {
+                  "size" : {
+                    "total_in_bytes" : 0,
+                    "reused_in_bytes" : 0,
+                    "recovered_in_bytes" : 0,
+                    "percent" : "0.0%"
+                  },
+                  "files" : {
+                    "total" : 0,
+                    "reused" : 0,
+                    "recovered" : 0,
+                    "percent" : "0.0%"
+                  },
+                  "total_time_in_millis" : 0,
+                  "source_throttle_time_in_millis" : 0,
+                  "target_throttle_time_in_millis" : 0
+                },
+                "translog" : {
+                  "recovered" : 0,
+                  "total" : 0,
+                  "percent" : "100.0%",
+                  "total_on_start" : 0,
+                  "total_time_in_millis" : 10
+                },
+                "verify_index" : {
+                  "check_index_time_in_millis" : 0,
+                  "total_time_in_millis" : 0
+                }
+              },
+              {
+                "index_name" : ".monitoring-es-6-2018.05.04",
+                "id" : 0,
+                "type" : "EMPTY_STORE",
+                "stage" : "DONE",
+                "primary" : true,
+                "start_time_in_millis" : 1525410277600,
+                "stop_time_in_millis" : 1525410277615,
+                "total_time_in_millis" : 15,
+                "source" : { },
+                "target" : {
+                  "id" : "wfgVeT09RY2XA-WIMDGtBQ",
+                  "host" : "172.20.0.2",
+                  "transport_address" : "172.20.0.2:9300",
+                  "ip" : "172.20.0.2",
+                  "name" : "wfgVeT0"
+                },
+                "index" : {
+                  "size" : {
+                    "total_in_bytes" : 0,
+                    "reused_in_bytes" : 0,
+                    "recovered_in_bytes" : 0,
+                    "percent" : "0.0%"
+                  },
+                  "files" : {
+                    "total" : 0,
+                    "reused" : 0,
+                    "recovered" : 0,
+                    "percent" : "0.0%"
+                  },
+                  "total_time_in_millis" : 0,
+                  "source_throttle_time_in_millis" : 0,
+                  "target_throttle_time_in_millis" : 0
+                },
+                "translog" : {
+                  "recovered" : 0,
+                  "total" : 0,
+                  "percent" : "100.0%",
+                  "total_on_start" : 0,
+                  "total_time_in_millis" : 10
+                },
+                "verify_index" : {
+                  "check_index_time_in_millis" : 0,
+                  "total_time_in_millis" : 0
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "_index" : ".monitoring-es-6-2018.05.04",
+        "_type" : "doc",
+        "_id" : "AWMppIQJ2bIvXh0T5GOq",
+        "_score" : 1.0,
+        "_source" : {
+          "cluster_uuid" : "z9M9ylYhSYeglBHZGFv5ng",
+          "timestamp" : "2018-05-04T05:33:57.620Z",
+          "type" : "index_stats",
+          "source_node" : {
+            "uuid" : "wfgVeT09RY2XA-WIMDGtBQ",
+            "host" : "172.20.0.2",
+            "transport_address" : "172.20.0.2:9300",
+            "ip" : "172.20.0.2",
+            "name" : "wfgVeT0",
+            "attributes" : {
+              "ml.max_open_jobs" : "10",
+              "ml.enabled" : "true"
+            }
+          },
+          "index_stats" : {
+            "index" : "postgres.public.products.idx_zdb_products",
+            "total" : {
+              "docs" : {
+                "count" : 0
+              },
+              "store" : {
+                "size_in_bytes" : 810,
+                "throttle_time_in_millis" : 0
+              },
+              "indexing" : {
+                "index_total" : 0,
+                "index_time_in_millis" : 0,
+                "throttle_time_in_millis" : 0
+              },
+              "search" : {
+                "query_total" : 0,
+                "query_time_in_millis" : 0
+              },
+              "merges" : {
+                "total_size_in_bytes" : 0
+              },
+              "refresh" : {
+                "total_time_in_millis" : 0
+              },
+              "query_cache" : {
+                "memory_size_in_bytes" : 0,
+                "hit_count" : 0,
+                "miss_count" : 0,
+                "evictions" : 0
+              },
+              "fielddata" : {
+                "memory_size_in_bytes" : 0,
+                "evictions" : 0
+              },
+              "segments" : {
+                "count" : 0,
+                "memory_in_bytes" : 0,
+                "terms_memory_in_bytes" : 0,
+                "stored_fields_memory_in_bytes" : 0,
+                "term_vectors_memory_in_bytes" : 0,
+                "norms_memory_in_bytes" : 0,
+                "points_memory_in_bytes" : 0,
+                "doc_values_memory_in_bytes" : 0,
+                "index_writer_memory_in_bytes" : 0,
+                "version_map_memory_in_bytes" : 0,
+                "fixed_bit_set_memory_in_bytes" : 0
+              },
+              "request_cache" : {
+                "memory_size_in_bytes" : 0,
+                "evictions" : 0,
+                "hit_count" : 0,
+                "miss_count" : 0
+              }
+            },
+            "primaries" : {
+              "docs" : {
+                "count" : 0
+              },
+              "store" : {
+                "size_in_bytes" : 810,
+                "throttle_time_in_millis" : 0
+              },
+              "indexing" : {
+                "index_total" : 0,
+                "index_time_in_millis" : 0,
+                "throttle_time_in_millis" : 0
+              },
+              "search" : {
+                "query_total" : 0,
+                "query_time_in_millis" : 0
+              },
+              "merges" : {
+                "total_size_in_bytes" : 0
+              },
+              "refresh" : {
+                "total_time_in_millis" : 0
+              },
+              "query_cache" : {
+                "memory_size_in_bytes" : 0,
+                "hit_count" : 0,
+                "miss_count" : 0,
+                "evictions" : 0
+              },
+              "fielddata" : {
+                "memory_size_in_bytes" : 0,
+                "evictions" : 0
+              },
+              "segments" : {
+                "count" : 0,
+                "memory_in_bytes" : 0,
+                "terms_memory_in_bytes" : 0,
+                "stored_fields_memory_in_bytes" : 0,
+                "term_vectors_memory_in_bytes" : 0,
+                "norms_memory_in_bytes" : 0,
+                "points_memory_in_bytes" : 0,
+                "doc_values_memory_in_bytes" : 0,
+                "index_writer_memory_in_bytes" : 0,
+                "version_map_memory_in_bytes" : 0,
+                "fixed_bit_set_memory_in_bytes" : 0
+              },
+              "request_cache" : {
+                "memory_size_in_bytes" : 0,
+                "evictions" : 0,
+                "hit_count" : 0,
+                "miss_count" : 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "_index" : ".monitoring-es-6-2018.05.04",
+        "_type" : "doc",
+        "_id" : "AWMppIQJ2bIvXh0T5GOt",
+        "_score" : 1.0,
+        "_source" : {
+          "cluster_uuid" : "z9M9ylYhSYeglBHZGFv5ng",
+          "timestamp" : "2018-05-04T05:33:57.634Z",
+          "type" : "node_stats",
+          "source_node" : {
+            "uuid" : "wfgVeT09RY2XA-WIMDGtBQ",
+            "host" : "172.20.0.2",
+            "transport_address" : "172.20.0.2:9300",
+            "ip" : "172.20.0.2",
+            "name" : "wfgVeT0",
+            "attributes" : {
+              "ml.max_open_jobs" : "10",
+              "ml.enabled" : "true"
+            }
+          },
+          "node_stats" : {
+            "node_id" : "wfgVeT09RY2XA-WIMDGtBQ",
+            "node_master" : true,
+            "mlockall" : true,
+            "indices" : {
+              "docs" : {
+                "count" : 1087
+              },
+              "store" : {
+                "size_in_bytes" : 3405999,
+                "throttle_time_in_millis" : 0
+              },
+              "indexing" : {
+                "index_total" : 4741,
+                "index_time_in_millis" : 5309,
+                "throttle_time_in_millis" : 0
+              },
+              "search" : {
+                "query_total" : 0,
+                "query_time_in_millis" : 0
+              },
+              "query_cache" : {
+                "memory_size_in_bytes" : 0,
+                "hit_count" : 0,
+                "miss_count" : 0,
+                "evictions" : 0
+              },
+              "fielddata" : {
+                "memory_size_in_bytes" : 0,
+                "evictions" : 0
+              },
+              "segments" : {
+                "count" : 29,
+                "memory_in_bytes" : 797987,
+                "terms_memory_in_bytes" : 557167,
+                "stored_fields_memory_in_bytes" : 9232,
+                "term_vectors_memory_in_bytes" : 0,
+                "norms_memory_in_bytes" : 57792,
+                "points_memory_in_bytes" : 7480,
+                "doc_values_memory_in_bytes" : 166316,
+                "index_writer_memory_in_bytes" : 0,
+                "version_map_memory_in_bytes" : 0,
+                "fixed_bit_set_memory_in_bytes" : 0
+              },
+              "request_cache" : {
+                "memory_size_in_bytes" : 0,
+                "evictions" : 0,
+                "hit_count" : 0,
+                "miss_count" : 0
+              }
+            },
+            "os" : {
+              "cpu" : {
+                "load_average" : {
+                  "1m" : 0.87,
+                  "5m" : 0.29,
+                  "15m" : 0.32
+                }
+              },
+              "cgroup" : {
+                "cpuacct" : {
+                  "control_group" : "/",
+                  "usage_nanos" : 199771509245
+                },
+                "cpu" : {
+                  "control_group" : "/",
+                  "cfs_period_micros" : 100000,
+                  "cfs_quota_micros" : -1,
+                  "stat" : {
+                    "number_of_elapsed_periods" : 0,
+                    "number_of_times_throttled" : 0,
+                    "time_throttled_nanos" : 0
+                  }
+                }
+              }
+            },
+            "process" : {
+              "open_file_descriptors" : 298,
+              "max_file_descriptors" : 1048576,
+              "cpu" : {
+                "percent" : 0
+              }
+            },
+            "jvm" : {
+              "mem" : {
+                "heap_used_in_bytes" : 256986080,
+                "heap_used_percent" : 49,
+                "heap_max_in_bytes" : 518979584
+              },
+              "gc" : {
+                "collectors" : {
+                  "young" : {
+                    "collection_count" : 188,
+                    "collection_time_in_millis" : 1248
+                  },
+                  "old" : {
+                    "collection_count" : 6,
+                    "collection_time_in_millis" : 198
+                  }
+                }
+              }
+            },
+            "thread_pool" : {
+              "bulk" : {
+                "threads" : 8,
+                "queue" : 0,
+                "rejected" : 0
+              },
+              "generic" : {
+                "threads" : 4,
+                "queue" : 0,
+                "rejected" : 0
+              },
+              "get" : {
+                "threads" : 0,
+                "queue" : 0,
+                "rejected" : 0
+              },
+              "index" : {
+                "threads" : 0,
+                "queue" : 0,
+                "rejected" : 0
+              },
+              "management" : {
+                "threads" : 3,
+                "queue" : 0,
+                "rejected" : 0
+              },
+              "search" : {
+                "threads" : 0,
+                "queue" : 0,
+                "rejected" : 0
+              },
+              "watcher" : {
+                "threads" : 0,
+                "queue" : 0,
+                "rejected" : 0
+              }
+            },
+            "fs" : {
+              "total" : {
+                "total_in_bytes" : 54002864128,
+                "free_in_bytes" : 31863640064,
+                "available_in_bytes" : 29096935424
+              },
+              "data" : [
+                {
+                  "spins" : "true"
+                }
+              ],
+              "io_stats" : {
+                "total" : {
+                  "operations" : 146292,
+                  "read_operations" : 114651,
+                  "write_operations" : 31641,
+                  "read_kilobytes" : 1166776,
+                  "write_kilobytes" : 31021684
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "_index" : ".monitoring-es-6-2018.05.04",
+        "_type" : "doc",
+        "_id" : "AWMppSBD2bIvXh0T5GPE",
+        "_score" : 1.0,
+        "_source" : {
+          "cluster_uuid" : "z9M9ylYhSYeglBHZGFv5ng",
+          "timestamp" : "2018-05-04T05:34:37.630Z",
+          "type" : "cluster_stats",
+          "source_node" : {
+            "uuid" : "wfgVeT09RY2XA-WIMDGtBQ",
+            "host" : "172.20.0.2",
+            "transport_address" : "172.20.0.2:9300",
+            "ip" : "172.20.0.2",
+            "name" : "wfgVeT0",
+            "attributes" : {
+              "ml.max_open_jobs" : "10",
+              "ml.enabled" : "true"
+            }
+          },
+          "cluster_name" : "docker-cluster",
+          "version" : "5.6.4",
+          "license" : {
+            "status" : "active",
+            "uid" : "7e8dfd94-ec1f-46c1-a924-7fbb05a4a707",
+            "type" : "basic",
+            "issue_date" : "2018-05-03T09:32:55.402Z",
+            "issue_date_in_millis" : 1525339975402,
+            "expiry_date" : "2018-06-02T09:32:55.402Z",
+            "expiry_date_in_millis" : 1527931975402,
+            "max_nodes" : 1000,
+            "issued_to" : "docker-cluster",
+            "issuer" : "elasticsearch",
+            "start_date_in_millis" : -1,
+            "hkey" : "5e3823496a643871da98f989eea415acaa0f16d521802f477774f3f32fba5e5d"
+          },
+          "cluster_stats" : {
+            "timestamp" : 1525412077629,
+            "status" : "red",
+            "indices" : {
+              "count" : 2,
+              "shards" : {
+                "total" : 10,
+                "primaries" : 10,
+                "replication" : 0.0,
+                "index" : {
+                  "shards" : {
+                    "min" : 5,
+                    "max" : 5,
+                    "avg" : 5.0
+                  },
+                  "primaries" : {
+                    "min" : 5,
+                    "max" : 5,
+                    "avg" : 5.0
+                  },
+                  "replication" : {
+                    "min" : 0.0,
+                    "max" : 0.0,
+                    "avg" : 0.0
+                  }
+                }
+              },
+              "docs" : {
+                "count" : 1111,
+                "deleted" : 53
+              },
+              "store" : {
+                "size_in_bytes" : 2925973,
+                "throttle_time_in_millis" : 0
+              },
+              "fielddata" : {
+                "memory_size_in_bytes" : 0,
+                "evictions" : 0
+              },
+              "query_cache" : {
+                "memory_size_in_bytes" : 0,
+                "total_count" : 0,
+                "hit_count" : 0,
+                "miss_count" : 0,
+                "cache_size" : 0,
+                "cache_count" : 0,
+                "evictions" : 0
+              },
+              "completion" : {
+                "size_in_bytes" : 0
+              },
+              "segments" : {
+                "count" : 17,
+                "memory_in_bytes" : 584278,
+                "terms_memory_in_bytes" : 379548,
+                "stored_fields_memory_in_bytes" : 5496,
+                "term_vectors_memory_in_bytes" : 0,
+                "norms_memory_in_bytes" : 38976,
+                "points_memory_in_bytes" : 5734,
+                "doc_values_memory_in_bytes" : 154524,
+                "index_writer_memory_in_bytes" : 0,
+                "version_map_memory_in_bytes" : 0,
+                "fixed_bit_set_memory_in_bytes" : 0,
+                "max_unsafe_auto_id_timestamp" : -1,
+                "file_sizes" : { }
+              }
+            },
+            "nodes" : {
+              "count" : {
+                "total" : 1,
+                "data" : 1,
+                "coordinating_only" : 0,
+                "master" : 1,
+                "ingest" : 1
+              },
+              "versions" : [
+                "5.6.4"
+              ],
+              "os" : {
+                "available_processors" : 8,
+                "allocated_processors" : 8,
+                "names" : [
+                  {
+                    "name" : "Linux",
+                    "count" : 1
+                  }
+                ],
+                "mem" : {
+                  "total_in_bytes" : 8242122752,
+                  "free_in_bytes" : 341020672,
+                  "used_in_bytes" : 7901102080,
+                  "free_percent" : 4,
+                  "used_percent" : 96
+                }
+              },
+              "process" : {
+                "cpu" : {
+                  "percent" : 0
+                },
+                "open_file_descriptors" : {
+                  "min" : 298,
+                  "max" : 298,
+                  "avg" : 298
+                }
+              },
+              "jvm" : {
+                "max_uptime_in_millis" : 13077631,
+                "versions" : [
+                  {
+                    "version" : "1.8.0_141",
+                    "vm_name" : "OpenJDK 64-Bit Server VM",
+                    "vm_version" : "25.141-b16",
+                    "vm_vendor" : "Oracle Corporation",
+                    "count" : 1
+                  }
+                ],
+                "mem" : {
+                  "heap_used_in_bytes" : 198496840,
+                  "heap_max_in_bytes" : 518979584
+                },
+                "threads" : 52
+              },
+              "fs" : {
+                "total_in_bytes" : 54002864128,
+                "free_in_bytes" : 31864131584,
+                "available_in_bytes" : 29097426944,
+                "spins" : "true"
+              },
+              "plugins" : [
+                {
+                  "name" : "ingest-user-agent",
+                  "version" : "5.6.4",
+                  "description" : "Ingest processor that extracts information from a user agent",
+                  "classname" : "org.elasticsearch.ingest.useragent.IngestUserAgentPlugin",
+                  "has_native_controller" : false
+                },
+                {
+                  "name" : "ingest-geoip",
+                  "version" : "5.6.4",
+                  "description" : "Ingest processor that uses looksup geo data based on ip adresses using the Maxmind geo database",
+                  "classname" : "org.elasticsearch.ingest.geoip.IngestGeoIpPlugin",
+                  "has_native_controller" : false
+                },
+                {
+                  "name" : "x-pack",
+                  "version" : "5.6.4",
+                  "description" : "Elasticsearch Expanded Pack Plugin",
+                  "classname" : "org.elasticsearch.xpack.XPackPlugin",
+                  "has_native_controller" : true
+                }
+              ],
+              "network_types" : {
+                "transport_types" : {
+                  "security4" : 1
+                },
+                "http_types" : {
+                  "security4" : 1
+                }
+              }
+            }
+          },
+          "cluster_state" : {
+            "status" : "red",
+            "version" : 16,
+            "state_uuid" : "WyALjdsMRquwEHJ7LWM4Vw",
+            "master_node" : "wfgVeT09RY2XA-WIMDGtBQ",
+            "nodes" : {
+              "wfgVeT09RY2XA-WIMDGtBQ" : {
+                "name" : "wfgVeT0",
+                "ephemeral_id" : "_ZraZ8TYRoGzMC7gdFAXhw",
+                "transport_address" : "172.20.0.2:9300",
+                "attributes" : {
+                  "ml.max_open_jobs" : "10",
+                  "ml.enabled" : "true"
+                }
+              }
+            }
+          },
+          "stack_stats" : {
+            "xpack" : {
+              "security" : {
+                "available" : false,
+                "enabled" : true,
+                "realms" : {
+                  "file" : {
+                    "available" : false,
+                    "enabled" : false
+                  },
+                  "ldap" : {
+                    "available" : false,
+                    "enabled" : false
+                  },
+                  "native" : {
+                    "available" : false,
+                    "enabled" : false
+                  },
+                  "active_directory" : {
+                    "available" : false,
+                    "enabled" : false
+                  },
+                  "pki" : {
+                    "available" : false,
+                    "enabled" : false
+                  }
+                },
+                "roles" : {
+                  "native" : {
+                    "size" : 0,
+                    "dls" : false,
+                    "fls" : false
+                  },
+                  "file" : {
+                    "size" : 0,
+                    "dls" : false,
+                    "fls" : false
+                  }
+                },
+                "role_mapping" : {
+                  "native" : {
+                    "size" : 0,
+                    "enabled" : 0
+                  }
+                },
+                "ssl" : {
+                  "http" : {
+                    "enabled" : false
+                  },
+                  "transport" : {
+                    "enabled" : false
+                  }
+                },
+                "audit" : {
+                  "outputs" : [
+                    "logfile"
+                  ],
+                  "enabled" : false
+                },
+                "ipfilter" : {
+                  "http" : false,
+                  "transport" : false
+                },
+                "system_key" : {
+                  "enabled" : false
+                },
+                "anonymous" : {
+                  "enabled" : false
+                }
+              },
+              "watcher" : {
+                "available" : false,
+                "enabled" : true,
+                "execution" : {
+                  "actions" : {
+                    "_all" : {
+                      "total" : 0,
+                      "total_time_in_ms" : 0
+                    }
+                  }
+                },
+                "count" : {
+                  "total" : 0,
+                  "active" : 0
+                }
+              },
+              "monitoring" : {
+                "available" : true,
+                "enabled" : true,
+                "enabled_exporters" : {
+                  "local" : 1
+                }
+              },
+              "graph" : {
+                "available" : false,
+                "enabled" : true
+              },
+              "ml" : {
+                "available" : false,
+                "enabled" : true,
+                "jobs" : {
+                  "_all" : {
+                    "count" : 0,
+                    "detectors" : {
+                      "total" : 0.0,
+                      "min" : 0.0,
+                      "avg" : 0.0,
+                      "max" : 0.0
+                    },
+                    "model_size" : {
+                      "total" : 0.0,
+                      "min" : 0.0,
+                      "avg" : 0.0,
+                      "max" : 0.0
+                    }
+                  }
+                },
+                "datafeeds" : {
+                  "_all" : {
+                    "count" : 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "_index" : ".monitoring-es-6-2018.05.04",
+        "_type" : "doc",
+        "_id" : "AWMppUda2bIvXh0T5GPH",
+        "_score" : 1.0,
+        "_source" : {
+          "cluster_uuid" : "z9M9ylYhSYeglBHZGFv5ng",
+          "timestamp" : "2018-05-04T05:34:47.621Z",
+          "type" : "indices_stats",
+          "source_node" : {
+            "uuid" : "wfgVeT09RY2XA-WIMDGtBQ",
+            "host" : "172.20.0.2",
+            "transport_address" : "172.20.0.2:9300",
+            "ip" : "172.20.0.2",
+            "name" : "wfgVeT0",
+            "attributes" : {
+              "ml.max_open_jobs" : "10",
+              "ml.enabled" : "true"
+            }
+          },
+          "indices_stats" : {
+            "_all" : {
+              "primaries" : {
+                "docs" : {
+                  "count" : 1117
+                },
+                "store" : {
+                  "size_in_bytes" : 2925973
+                },
+                "indexing" : {
+                  "index_total" : 4876,
+                  "index_time_in_millis" : 5400,
+                  "is_throttled" : false,
+                  "throttle_time_in_millis" : 0
+                },
+                "search" : {
+                  "query_total" : 0,
+                  "query_time_in_millis" : 0
+                }
+              },
+              "total" : {
+                "docs" : {
+                  "count" : 1117
+                },
+                "store" : {
+                  "size_in_bytes" : 2925973
+                },
+                "indexing" : {
+                  "index_total" : 4876,
+                  "index_time_in_millis" : 5400,
+                  "is_throttled" : false,
+                  "throttle_time_in_millis" : 0
+                },
+                "search" : {
+                  "query_total" : 0,
+                  "query_time_in_millis" : 0
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "_index" : ".monitoring-es-6-2018.05.04",
+        "_type" : "doc",
+        "_id" : "AWMppUda2bIvXh0T5GPI",
+        "_score" : 1.0,
+        "_source" : {
+          "cluster_uuid" : "z9M9ylYhSYeglBHZGFv5ng",
+          "timestamp" : "2018-05-04T05:34:47.621Z",
+          "type" : "index_stats",
+          "source_node" : {
+            "uuid" : "wfgVeT09RY2XA-WIMDGtBQ",
+            "host" : "172.20.0.2",
+            "transport_address" : "172.20.0.2:9300",
+            "ip" : "172.20.0.2",
+            "name" : "wfgVeT0",
+            "attributes" : {
+              "ml.max_open_jobs" : "10",
+              "ml.enabled" : "true"
+            }
+          },
+          "index_stats" : {
+            "index" : "postgres.public.products.idx_zdb_products",
+            "total" : {
+              "docs" : {
+                "count" : 0
+              },
+              "store" : {
+                "size_in_bytes" : 810,
+                "throttle_time_in_millis" : 0
+              },
+              "indexing" : {
+                "index_total" : 0,
+                "index_time_in_millis" : 0,
+                "throttle_time_in_millis" : 0
+              },
+              "search" : {
+                "query_total" : 0,
+                "query_time_in_millis" : 0
+              },
+              "merges" : {
+                "total_size_in_bytes" : 0
+              },
+              "refresh" : {
+                "total_time_in_millis" : 0
+              },
+              "query_cache" : {
+                "memory_size_in_bytes" : 0,
+                "hit_count" : 0,
+                "miss_count" : 0,
+                "evictions" : 0
+              },
+              "fielddata" : {
+                "memory_size_in_bytes" : 0,
+                "evictions" : 0
+              },
+              "segments" : {
+                "count" : 0,
+                "memory_in_bytes" : 0,
+                "terms_memory_in_bytes" : 0,
+                "stored_fields_memory_in_bytes" : 0,
+                "term_vectors_memory_in_bytes" : 0,
+                "norms_memory_in_bytes" : 0,
+                "points_memory_in_bytes" : 0,
+                "doc_values_memory_in_bytes" : 0,
+                "index_writer_memory_in_bytes" : 0,
+                "version_map_memory_in_bytes" : 0,
+                "fixed_bit_set_memory_in_bytes" : 0
+              },
+              "request_cache" : {
+                "memory_size_in_bytes" : 0,
+                "evictions" : 0,
+                "hit_count" : 0,
+                "miss_count" : 0
+              }
+            },
+            "primaries" : {
+              "docs" : {
+                "count" : 0
+              },
+              "store" : {
+                "size_in_bytes" : 810,
+                "throttle_time_in_millis" : 0
+              },
+              "indexing" : {
+                "index_total" : 0,
+                "index_time_in_millis" : 0,
+                "throttle_time_in_millis" : 0
+              },
+              "search" : {
+                "query_total" : 0,
+                "query_time_in_millis" : 0
+              },
+              "merges" : {
+                "total_size_in_bytes" : 0
+              },
+              "refresh" : {
+                "total_time_in_millis" : 0
+              },
+              "query_cache" : {
+                "memory_size_in_bytes" : 0,
+                "hit_count" : 0,
+                "miss_count" : 0,
+                "evictions" : 0
+              },
+              "fielddata" : {
+                "memory_size_in_bytes" : 0,
+                "evictions" : 0
+              },
+              "segments" : {
+                "count" : 0,
+                "memory_in_bytes" : 0,
+                "terms_memory_in_bytes" : 0,
+                "stored_fields_memory_in_bytes" : 0,
+                "term_vectors_memory_in_bytes" : 0,
+                "norms_memory_in_bytes" : 0,
+                "points_memory_in_bytes" : 0,
+                "doc_values_memory_in_bytes" : 0,
+                "index_writer_memory_in_bytes" : 0,
+                "version_map_memory_in_bytes" : 0,
+                "fixed_bit_set_memory_in_bytes" : 0
+              },
+              "request_cache" : {
+                "memory_size_in_bytes" : 0,
+                "evictions" : 0,
+                "hit_count" : 0,
+                "miss_count" : 0
+              }
+            }
+          }
+        }
+      },
+      {
+        "_index" : ".monitoring-es-6-2018.05.04",
+        "_type" : "doc",
+        "_id" : "AWMppUda2bIvXh0T5GPL",
+        "_score" : 1.0,
+        "_source" : {
+          "cluster_uuid" : "z9M9ylYhSYeglBHZGFv5ng",
+          "timestamp" : "2018-05-04T05:34:47.633Z",
+          "type" : "node_stats",
+          "source_node" : {
+            "uuid" : "wfgVeT09RY2XA-WIMDGtBQ",
+            "host" : "172.20.0.2",
+            "transport_address" : "172.20.0.2:9300",
+            "ip" : "172.20.0.2",
+            "name" : "wfgVeT0",
+            "attributes" : {
+              "ml.max_open_jobs" : "10",
+              "ml.enabled" : "true"
+            }
+          },
+          "node_stats" : {
+            "node_id" : "wfgVeT09RY2XA-WIMDGtBQ",
+            "node_master" : true,
+            "mlockall" : true,
+            "indices" : {
+              "docs" : {
+                "count" : 1117
+              },
+              "store" : {
+                "size_in_bytes" : 3122142,
+                "throttle_time_in_millis" : 0
+              },
+              "indexing" : {
+                "index_total" : 4876,
+                "index_time_in_millis" : 5400,
+                "throttle_time_in_millis" : 0
+              },
+              "search" : {
+                "query_total" : 0,
+                "query_time_in_millis" : 0
+              },
+              "query_cache" : {
+                "memory_size_in_bytes" : 0,
+                "hit_count" : 0,
+                "miss_count" : 0,
+                "evictions" : 0
+              },
+              "fielddata" : {
+                "memory_size_in_bytes" : 0,
+                "evictions" : 0
+              },
+              "segments" : {
+                "count" : 21,
+                "memory_in_bytes" : 658998,
+                "terms_memory_in_bytes" : 440270,
+                "stored_fields_memory_in_bytes" : 6744,
+                "term_vectors_memory_in_bytes" : 0,
+                "norms_memory_in_bytes" : 45440,
+                "points_memory_in_bytes" : 6396,
+                "doc_values_memory_in_bytes" : 160148,
+                "index_writer_memory_in_bytes" : 0,
+                "version_map_memory_in_bytes" : 0,
+                "fixed_bit_set_memory_in_bytes" : 0
+              },
+              "request_cache" : {
+                "memory_size_in_bytes" : 0,
+                "evictions" : 0,
+                "hit_count" : 0,
+                "miss_count" : 0
+              }
+            },
+            "os" : {
+              "cpu" : {
+                "load_average" : {
+                  "1m" : 1.05,
+                  "5m" : 0.43,
+                  "15m" : 0.37
+                }
+              },
+              "cgroup" : {
+                "cpuacct" : {
+                  "control_group" : "/",
+                  "usage_nanos" : 201025146918
+                },
+                "cpu" : {
+                  "control_group" : "/",
+                  "cfs_period_micros" : 100000,
+                  "cfs_quota_micros" : -1,
+                  "stat" : {
+                    "number_of_elapsed_periods" : 0,
+                    "number_of_times_throttled" : 0,
+                    "time_throttled_nanos" : 0
+                  }
+                }
+              }
+            },
+            "process" : {
+              "open_file_descriptors" : 298,
+              "max_file_descriptors" : 1048576,
+              "cpu" : {
+                "percent" : 0
+              }
+            },
+            "jvm" : {
+              "mem" : {
+                "heap_used_in_bytes" : 309977096,
+                "heap_used_percent" : 59,
+                "heap_max_in_bytes" : 518979584
+              },
+              "gc" : {
+                "collectors" : {
+                  "young" : {
+                    "collection_count" : 193,
+                    "collection_time_in_millis" : 1279
+                  },
+                  "old" : {
+                    "collection_count" : 6,
+                    "collection_time_in_millis" : 198
+                  }
+                }
+              }
+            },
+            "thread_pool" : {
+              "bulk" : {
+                "threads" : 8,
+                "queue" : 0,
+                "rejected" : 0
+              },
+              "generic" : {
+                "threads" : 4,
+                "queue" : 0,
+                "rejected" : 0
+              },
+              "get" : {
+                "threads" : 0,
+                "queue" : 0,
+                "rejected" : 0
+              },
+              "index" : {
+                "threads" : 0,
+                "queue" : 0,
+                "rejected" : 0
+              },
+              "management" : {
+                "threads" : 3,
+                "queue" : 0,
+                "rejected" : 0
+              },
+              "search" : {
+                "threads" : 0,
+                "queue" : 0,
+                "rejected" : 0
+              },
+              "watcher" : {
+                "threads" : 0,
+                "queue" : 0,
+                "rejected" : 0
+              }
+            },
+            "fs" : {
+              "total" : {
+                "total_in_bytes" : 54002864128,
+                "free_in_bytes" : 31863869440,
+                "available_in_bytes" : 29097164800
+              },
+              "data" : [
+                {
+                  "spins" : "true"
+                }
+              ],
+              "io_stats" : {
+                "total" : {
+                  "operations" : 146577,
+                  "read_operations" : 114651,
+                  "write_operations" : 31926,
+                  "read_kilobytes" : 1166776,
+                  "write_kilobytes" : 31026640
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "_index" : ".monitoring-es-6-2018.05.04",
+        "_type" : "doc",
+        "_id" : "AWMppW5f2bIvXh0T5GPN",
+        "_score" : 1.0,
+        "_source" : {
+          "cluster_uuid" : "z9M9ylYhSYeglBHZGFv5ng",
+          "timestamp" : "2018-05-04T05:34:57.620Z",
+          "type" : "indices_stats",
+          "source_node" : {
+            "uuid" : "wfgVeT09RY2XA-WIMDGtBQ",
+            "host" : "172.20.0.2",
+            "transport_address" : "172.20.0.2:9300",
+            "ip" : "172.20.0.2",
+            "name" : "wfgVeT0",
+            "attributes" : {
+              "ml.max_open_jobs" : "10",
+              "ml.enabled" : "true"
+            }
+          },
+          "indices_stats" : {
+            "_all" : {
+              "primaries" : {
+                "docs" : {
+                  "count" : 1123
+                },
+                "store" : {
+                  "size_in_bytes" : 3122142
+                },
+                "indexing" : {
+                  "index_total" : 4903,
+                  "index_time_in_millis" : 5417,
+                  "is_throttled" : false,
+                  "throttle_time_in_millis" : 0
+                },
+                "search" : {
+                  "query_total" : 0,
+                  "query_time_in_millis" : 0
+                }
+              },
+              "total" : {
+                "docs" : {
+                  "count" : 1123
+                },
+                "store" : {
+                  "size_in_bytes" : 3122142
+                },
+                "indexing" : {
+                  "index_total" : 4903,
+                  "index_time_in_millis" : 5417,
+                  "is_throttled" : false,
+                  "throttle_time_in_millis" : 0
+                },
+                "search" : {
+                  "query_total" : 0,
+                  "query_time_in_millis" : 0
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "_index" : ".monitoring-es-6-2018.05.04",
+        "_type" : "doc",
+        "_id" : "AWMppgqt2bIvXh0T5GPo",
+        "_score" : 1.0,
+        "_source" : {
+          "cluster_uuid" : "z9M9ylYhSYeglBHZGFv5ng",
+          "timestamp" : "2018-05-04T05:35:37.634Z",
+          "type" : "cluster_stats",
+          "source_node" : {
+            "uuid" : "wfgVeT09RY2XA-WIMDGtBQ",
+            "host" : "172.20.0.2",
+            "transport_address" : "172.20.0.2:9300",
+            "ip" : "172.20.0.2",
+            "name" : "wfgVeT0",
+            "attributes" : {
+              "ml.max_open_jobs" : "10",
+              "ml.enabled" : "true"
+            }
+          },
+          "cluster_name" : "docker-cluster",
+          "version" : "5.6.4",
+          "license" : {
+            "status" : "active",
+            "uid" : "7e8dfd94-ec1f-46c1-a924-7fbb05a4a707",
+            "type" : "basic",
+            "issue_date" : "2018-05-03T09:32:55.402Z",
+            "issue_date_in_millis" : 1525339975402,
+            "expiry_date" : "2018-06-02T09:32:55.402Z",
+            "expiry_date_in_millis" : 1527931975402,
+            "max_nodes" : 1000,
+            "issued_to" : "docker-cluster",
+            "issuer" : "elasticsearch",
+            "start_date_in_millis" : -1,
+            "hkey" : "5e3823496a643871da98f989eea415acaa0f16d521802f477774f3f32fba5e5d"
+          },
+          "cluster_stats" : {
+            "timestamp" : 1525412137634,
+            "status" : "red",
+            "indices" : {
+              "count" : 2,
+              "shards" : {
+                "total" : 10,
+                "primaries" : 10,
+                "replication" : 0.0,
+                "index" : {
+                  "shards" : {
+                    "min" : 5,
+                    "max" : 5,
+                    "avg" : 5.0
+                  },
+                  "primaries" : {
+                    "min" : 5,
+                    "max" : 5,
+                    "avg" : 5.0
+                  },
+                  "replication" : {
+                    "min" : 0.0,
+                    "max" : 0.0,
+                    "avg" : 0.0
+                  }
+                }
+              },
+              "docs" : {
+                "count" : 1147,
+                "deleted" : 144
+              },
+              "store" : {
+                "size_in_bytes" : 3907951,
+                "throttle_time_in_millis" : 0
+              },
+              "fielddata" : {
+                "memory_size_in_bytes" : 0,
+                "evictions" : 0
+              },
+              "query_cache" : {
+                "memory_size_in_bytes" : 0,
+                "total_count" : 0,
+                "hit_count" : 0,
+                "miss_count" : 0,
+                "cache_size" : 0,
+                "cache_count" : 0,
+                "evictions" : 0
+              },
+              "completion" : {
+                "size_in_bytes" : 0
+              },
+              "segments" : {
+                "count" : 40,
+                "memory_in_bytes" : 1022108,
+                "terms_memory_in_bytes" : 736276,
+                "stored_fields_memory_in_bytes" : 12672,
+                "term_vectors_memory_in_bytes" : 0,
+                "norms_memory_in_bytes" : 76864,
+                "points_memory_in_bytes" : 9704,
+                "doc_values_memory_in_bytes" : 186592,
+                "index_writer_memory_in_bytes" : 0,
+                "version_map_memory_in_bytes" : 0,
+                "fixed_bit_set_memory_in_bytes" : 0,
+                "max_unsafe_auto_id_timestamp" : -1,
+                "file_sizes" : { }
+              }
+            },
+            "nodes" : {
+              "count" : {
+                "total" : 1,
+                "data" : 1,
+                "coordinating_only" : 0,
+                "master" : 1,
+                "ingest" : 1
+              },
+              "versions" : [
+                "5.6.4"
+              ],
+              "os" : {
+                "available_processors" : 8,
+                "allocated_processors" : 8,
+                "names" : [
+                  {
+                    "name" : "Linux",
+                    "count" : 1
+                  }
+                ],
+                "mem" : {
+                  "total_in_bytes" : 8242122752,
+                  "free_in_bytes" : 335372288,
+                  "used_in_bytes" : 7906750464,
+                  "free_percent" : 4,
+                  "used_percent" : 96
+                }
+              },
+              "process" : {
+                "cpu" : {
+                  "percent" : 0
+                },
+                "open_file_descriptors" : {
+                  "min" : 298,
+                  "max" : 298,
+                  "avg" : 298
+                }
+              },
+              "jvm" : {
+                "max_uptime_in_millis" : 13137633,
+                "versions" : [
+                  {
+                    "version" : "1.8.0_141",
+                    "vm_name" : "OpenJDK 64-Bit Server VM",
+                    "vm_version" : "25.141-b16",
+                    "vm_vendor" : "Oracle Corporation",
+                    "count" : 1
+                  }
+                ],
+                "mem" : {
+                  "heap_used_in_bytes" : 317997800,
+                  "heap_max_in_bytes" : 518979584
+                },
+                "threads" : 52
+              },
+              "fs" : {
+                "total_in_bytes" : 54002864128,
+                "free_in_bytes" : 31862599680,
+                "available_in_bytes" : 29095895040,
+                "spins" : "true"
+              },
+              "plugins" : [
+                {
+                  "name" : "ingest-user-agent",
+                  "version" : "5.6.4",
+                  "description" : "Ingest processor that extracts information from a user agent",
+                  "classname" : "org.elasticsearch.ingest.useragent.IngestUserAgentPlugin",
+                  "has_native_controller" : false
+                },
+                {
+                  "name" : "ingest-geoip",
+                  "version" : "5.6.4",
+                  "description" : "Ingest processor that uses looksup geo data based on ip adresses using the Maxmind geo database",
+                  "classname" : "org.elasticsearch.ingest.geoip.IngestGeoIpPlugin",
+                  "has_native_controller" : false
+                },
+                {
+                  "name" : "x-pack",
+                  "version" : "5.6.4",
+                  "description" : "Elasticsearch Expanded Pack Plugin",
+                  "classname" : "org.elasticsearch.xpack.XPackPlugin",
+                  "has_native_controller" : true
+                }
+              ],
+              "network_types" : {
+                "transport_types" : {
+                  "security4" : 1
+                },
+                "http_types" : {
+                  "security4" : 1
+                }
+              }
+            }
+          },
+          "cluster_state" : {
+            "status" : "red",
+            "version" : 16,
+            "state_uuid" : "WyALjdsMRquwEHJ7LWM4Vw",
+            "master_node" : "wfgVeT09RY2XA-WIMDGtBQ",
+            "nodes" : {
+              "wfgVeT09RY2XA-WIMDGtBQ" : {
+                "name" : "wfgVeT0",
+                "ephemeral_id" : "_ZraZ8TYRoGzMC7gdFAXhw",
+                "transport_address" : "172.20.0.2:9300",
+                "attributes" : {
+                  "ml.max_open_jobs" : "10",
+                  "ml.enabled" : "true"
+                }
+              }
+            }
+          },
+          "stack_stats" : {
+            "xpack" : {
+              "security" : {
+                "available" : false,
+                "enabled" : true,
+                "realms" : {
+                  "file" : {
+                    "available" : false,
+                    "enabled" : false
+                  },
+                  "ldap" : {
+                    "available" : false,
+                    "enabled" : false
+                  },
+                  "native" : {
+                    "available" : false,
+                    "enabled" : false
+                  },
+                  "active_directory" : {
+                    "available" : false,
+                    "enabled" : false
+                  },
+                  "pki" : {
+                    "available" : false,
+                    "enabled" : false
+                  }
+                },
+                "roles" : {
+                  "native" : {
+                    "size" : 0,
+                    "dls" : false,
+                    "fls" : false
+                  },
+                  "file" : {
+                    "size" : 0,
+                    "dls" : false,
+                    "fls" : false
+                  }
+                },
+                "role_mapping" : {
+                  "native" : {
+                    "size" : 0,
+                    "enabled" : 0
+                  }
+                },
+                "ssl" : {
+                  "http" : {
+                    "enabled" : false
+                  },
+                  "transport" : {
+                    "enabled" : false
+                  }
+                },
+                "audit" : {
+                  "outputs" : [
+                    "logfile"
+                  ],
+                  "enabled" : false
+                },
+                "ipfilter" : {
+                  "http" : false,
+                  "transport" : false
+                },
+                "system_key" : {
+                  "enabled" : false
+                },
+                "anonymous" : {
+                  "enabled" : false
+                }
+              },
+              "watcher" : {
+                "available" : false,
+                "enabled" : true,
+                "execution" : {
+                  "actions" : {
+                    "_all" : {
+                      "total" : 0,
+                      "total_time_in_ms" : 0
+                    }
+                  }
+                },
+                "count" : {
+                  "total" : 0,
+                  "active" : 0
+                }
+              },
+              "monitoring" : {
+                "available" : true,
+                "enabled" : true,
+                "enabled_exporters" : {
+                  "local" : 1
+                }
+              },
+              "graph" : {
+                "available" : false,
+                "enabled" : true
+              },
+              "ml" : {
+                "available" : false,
+                "enabled" : true,
+                "jobs" : {
+                  "_all" : {
+                    "count" : 0,
+                    "detectors" : {
+                      "total" : 0.0,
+                      "min" : 0.0,
+                      "avg" : 0.0,
+                      "max" : 0.0
+                    },
+                    "model_size" : {
+                      "total" : 0.0,
+                      "min" : 0.0,
+                      "avg" : 0.0,
+                      "max" : 0.0
+                    }
+                  }
+                },
+                "datafeeds" : {
+                  "_all" : {
+                    "count" : 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "_index" : ".monitoring-es-6-2018.05.04",
+        "_type" : "doc",
+        "_id" : "AWMppgqt2bIvXh0T5GPp",
+        "_score" : 1.0,
+        "_source" : {
+          "cluster_uuid" : "z9M9ylYhSYeglBHZGFv5ng",
+          "timestamp" : "2018-05-04T05:35:37.635Z",
+          "type" : "node_stats",
+          "source_node" : {
+            "uuid" : "wfgVeT09RY2XA-WIMDGtBQ",
+            "host" : "172.20.0.2",
+            "transport_address" : "172.20.0.2:9300",
+            "ip" : "172.20.0.2",
+            "name" : "wfgVeT0",
+            "attributes" : {
+              "ml.max_open_jobs" : "10",
+              "ml.enabled" : "true"
+            }
+          },
+          "node_stats" : {
+            "node_id" : "wfgVeT09RY2XA-WIMDGtBQ",
+            "node_master" : true,
+            "mlockall" : true,
+            "indices" : {
+              "docs" : {
+                "count" : 1147
+              },
+              "store" : {
+                "size_in_bytes" : 4090009,
+                "throttle_time_in_millis" : 0
+              },
+              "indexing" : {
+                "index_total" : 5011,
+                "index_time_in_millis" : 5543,
+                "throttle_time_in_millis" : 0
+              },
+              "search" : {
+                "query_total" : 0,
+                "query_time_in_millis" : 0
+              },
+              "query_cache" : {
+                "memory_size_in_bytes" : 0,
+                "hit_count" : 0,
+                "miss_count" : 0,
+                "evictions" : 0
+              },
+              "fielddata" : {
+                "memory_size_in_bytes" : 0,
+                "evictions" : 0
+              },
+              "segments" : {
+                "count" : 40,
+                "memory_in_bytes" : 1022108,
+                "terms_memory_in_bytes" : 736276,
+                "stored_fields_memory_in_bytes" : 12672,
+                "term_vectors_memory_in_bytes" : 0,
+                "norms_memory_in_bytes" : 76864,
+                "points_memory_in_bytes" : 9704,
+                "doc_values_memory_in_bytes" : 186592,
+                "index_writer_memory_in_bytes" : 0,
+                "version_map_memory_in_bytes" : 0,
+                "fixed_bit_set_memory_in_bytes" : 0
+              },
+              "request_cache" : {
+                "memory_size_in_bytes" : 0,
+                "evictions" : 0,
+                "hit_count" : 0,
+                "miss_count" : 0
+              }
+            },
+            "os" : {
+              "cpu" : {
+                "load_average" : {
+                  "1m" : 1.02,
+                  "5m" : 0.52,
+                  "15m" : 0.4
+                }
+              },
+              "cgroup" : {
+                "cpuacct" : {
+                  "control_group" : "/",
+                  "usage_nanos" : 202000944612
+                },
+                "cpu" : {
+                  "control_group" : "/",
+                  "cfs_period_micros" : 100000,
+                  "cfs_quota_micros" : -1,
+                  "stat" : {
+                    "number_of_elapsed_periods" : 0,
+                    "number_of_times_throttled" : 0,
+                    "time_throttled_nanos" : 0
+                  }
+                }
+              }
+            },
+            "process" : {
+              "open_file_descriptors" : 298,
+              "max_file_descriptors" : 1048576,
+              "cpu" : {
+                "percent" : 0
+              }
+            },
+            "jvm" : {
+              "mem" : {
+                "heap_used_in_bytes" : 317997800,
+                "heap_used_percent" : 61,
+                "heap_max_in_bytes" : 518979584
+              },
+              "gc" : {
+                "collectors" : {
+                  "young" : {
+                    "collection_count" : 197,
+                    "collection_time_in_millis" : 1305
+                  },
+                  "old" : {
+                    "collection_count" : 6,
+                    "collection_time_in_millis" : 198
+                  }
+                }
+              }
+            },
+            "thread_pool" : {
+              "bulk" : {
+                "threads" : 8,
+                "queue" : 0,
+                "rejected" : 0
+              },
+              "generic" : {
+                "threads" : 4,
+                "queue" : 0,
+                "rejected" : 0
+              },
+              "get" : {
+                "threads" : 0,
+                "queue" : 0,
+                "rejected" : 0
+              },
+              "index" : {
+                "threads" : 0,
+                "queue" : 0,
+                "rejected" : 0
+              },
+              "management" : {
+                "threads" : 3,
+                "queue" : 0,
+                "rejected" : 0
+              },
+              "search" : {
+                "threads" : 0,
+                "queue" : 0,
+                "rejected" : 0
+              },
+              "watcher" : {
+                "threads" : 0,
+                "queue" : 0,
+                "rejected" : 0
+              }
+            },
+            "fs" : {
+              "total" : {
+                "total_in_bytes" : 54002864128,
+                "free_in_bytes" : 31862599680,
+                "available_in_bytes" : 29095895040
+              },
+              "data" : [
+                {
+                  "spins" : "true"
+                }
+              ],
+              "io_stats" : {
+                "total" : {
+                  "operations" : 146846,
+                  "read_operations" : 114653,
+                  "write_operations" : 32193,
+                  "read_kilobytes" : 1166784,
+                  "write_kilobytes" : 31030712
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}
