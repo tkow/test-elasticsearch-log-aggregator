@@ -9,6 +9,10 @@ services:
       - cluster.name=docker-cluster
       - bootstrap.memory_lock=true
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - xpack.security.enabled=false
+      - xpack.ml.enabled=false
+      - xpack.graph.enabled=false
+      - xpack.watcher.enabled=false
     ulimits:
       memlock:
         soft: -1
@@ -25,6 +29,27 @@ services:
     container_name: tkow-postgres
     networks:
       - esnet
+  kibana:
+    image: docker.elastic.co/kibana/kibana:6.3.0
+    container_name: kibana
+    environment:
+      ELASTICSEARCH_URL: "http://elasticsearch:9200"
+      XPACK_MONITORING_ELASTICSEARCH_URL: "http://elasticsearch:9200"
+      XPACK_SECURITY_ENABLED: "false"
+    ports:
+     - 80:5601
+    networks:
+      - kibana_net
+    mem_limit: 2g
+    memswap_limit: 2g
+    depends_on:
+      - elasticsearch
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "10"
+
 volumes:
   esdata:
     driver: local
