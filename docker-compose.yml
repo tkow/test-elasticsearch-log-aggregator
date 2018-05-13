@@ -22,26 +22,23 @@ services:
     ports:
       - 9200:9200
     networks:
-      - esnet
+      - kibana_net
   postgres:
     build:
       context: ./postgres
     container_name: tkow-postgres
     networks:
-      - esnet
+      - kibana_net
   kibana:
-    image: docker.elastic.co/kibana/kibana:6.3.0
+    image: docker.elastic.co/kibana/kibana:6.2.1
     container_name: kibana
     environment:
-      ELASTICSEARCH_URL: "http://elasticsearch:9200"
-      XPACK_MONITORING_ELASTICSEARCH_URL: "http://elasticsearch:9200"
-      XPACK_SECURITY_ENABLED: "false"
+      - mem_limit=2g
+      - memswap_limit=2g
     ports:
      - 80:5601
     networks:
       - kibana_net
-    mem_limit: 2g
-    memswap_limit: 2g
     depends_on:
       - elasticsearch
     logging:
@@ -49,10 +46,23 @@ services:
       options:
         max-size: "10m"
         max-file: "10"
+  logstash:
+    image: docker.elastic.co/logstash/logstash:6.2.1
+    container_name: kibana
+    environment:
+      - memswap_limit= 2g
+    depends_on:
+      - elasticsearch
+    networks:
+      - kibana_net
+    ports:
+      - '5044:5044'
+      - '43448:43448/udp'
+      - '9600:9600'
 
 volumes:
   esdata:
     driver: local
 networks:
-  esnet:
+  kibana_net:
 
