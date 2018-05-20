@@ -4,5 +4,4 @@ test Elastic Search with zomboDB
 
 ```
 docker-compose up -d
-docker-compose exec postgres psql -U postgres -c 'create extension zombodb';
 ```
