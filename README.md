@@ -1,4 +1,5 @@
-test Elastic Search with zomboDB
+test Elastic Search with lostash or fluentd playground.
+
 wip
 
 # init 
